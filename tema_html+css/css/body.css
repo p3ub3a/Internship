@@ -21,7 +21,7 @@
 
 .sizedParagraphDiv{
   float:left;
-  width: 40%;
+  width: 30%;
   height:800px;
   overflow: scroll;
   margin-left: 5%;
@@ -29,9 +29,18 @@
 }
 
 .sizedParagraphDiv2{
-  width: 40%;
+  width: 50%;
   height:800px;
   overflow: scroll;
   margin-left: 5%;
   margin-right: 5%;
+  position:static;
+}
+
+#penguin{
+  /* float: right;*/
+  position: absolute;
+	top: 110px;
+	right: 21%;
+  opacity: 0.4;
 }
