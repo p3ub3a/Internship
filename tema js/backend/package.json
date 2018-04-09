@@ -1,0 +1,16 @@
+{
+  "name": "beserver",
+  "version": "0.0.0",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "cors": "^2.8.3",
+    "express": "^4.15.x"
+  }
+}

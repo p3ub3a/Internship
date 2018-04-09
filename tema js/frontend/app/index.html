@@ -1,0 +1,19 @@
+<div id = "body">
+
+  <label for "nameInput">Add: </label>
+  <input name="nameInput" id = "nameInput" type = "text" placeholder="Product name">
+  <input name="priceInput" id = "priceInput" type = "number" placeholder="Product price" style="width: 100px">
+  <button id="addButton" type="button" onclick="addItem()">Add item</button>
+
+  <ul id = "dynamicList"></ul>
+
+  <input name="theInput2" id = "removeInput" type = "number" style="width: 50px">
+  <button id="removeButton" type="button" onclick="removeItem()">Remove</button>
+
+  <pre id="result"></pre>
+</div>
+
+<script src = "js/addItem.js"></script>
+<script src = "js/removeItem.js"></script>
+<script src = "js/jquery-3.3.1.min.js"></script>
+<script src = "js/serverFunctions.js"></script>
