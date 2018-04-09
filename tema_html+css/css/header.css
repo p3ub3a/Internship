@@ -1,0 +1,15 @@
+.Header{
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  height:100px;
+  background-color: #3D2B1F;
+  overflow: hidden;
+  /* other elements don't overlap the header */
+  z-index: 1;
+}
+
+.Header h1, .Footer p{
+  color: beige;
+  padding-top: 7px;
+}

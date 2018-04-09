@@ -1,0 +1,66 @@
+#textWrapper,#radioWrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#userName{
+  font-family: fantasy;
+  padding:7px;
+  width: 20%;
+  flex-shrink: 3;
+}
+
+#description{
+  padding:7px;
+  width: 30%;
+  height: 70px;
+  flex-shrink: 3;
+}
+
+#cbLabel{
+  padding-left:15px;
+  border-left: solid 1px #3D2B1F;
+}
+
+#select{
+  width: 30%;
+  margin:auto;
+  margin-top:5%;
+}
+
+.flexLabels{
+  align-self: center;
+  flex-basis: 90px;
+}
+
+.buttons{
+  margin-top: 3%;
+  background-color: #3D2B1F;
+  border: none;
+  color: Silver;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buttons:hover{
+  background-color: #3D3B1F;
+  color: MistyRose;
+}
+
+.select-style{
+  margin-top: 5%;
+}
+
+select {
+    width: 10%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 1px;
+    background-color: #3D3B1F;
+    color: Azure;
+}
